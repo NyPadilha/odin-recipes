@@ -29,10 +29,6 @@ h2 {
     font-size: 30px;
 }
 
-li {
-    text-align: left;
-}
-
 button {
     color: white;
     background-color: rgb(0, 0, 0);
@@ -44,4 +40,36 @@ button {
 #button {
     background-color: rgb(27, 182, 185);
     font-size: 16px;
+}
+
+ul,
+ol,
+#p-egg,
+#p-almond {
+    text-align: left;
+}
+
+#potato-margin {
+    margin-left: 540px;
+    margin-right: 540px;
+}
+
+#egg-margin {
+    margin-left: 710px;
+    margin-right: 710px;
+}
+
+#p-egg {
+    margin-left: 730px;
+    margin-right: 730px;
+}
+
+#almond-margin {
+    margin-left: 780px;
+    margin-right: 780px;
+}
+
+#p-almond {
+    margin-left: 800px;
+    margin-right: 800px;
 }

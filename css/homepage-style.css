@@ -1,0 +1,21 @@
+body {
+    text-align: center;
+    background-color: rgb(152, 82, 41);
+}
+.h,
+.b {
+    font-weight: 800;
+    font-family: "Times New Roman", serif;
+}
+
+.h {
+    font-size: 60px;
+    color: white;
+}
+
+.b {
+    color: white;
+    background-color: rgb(0, 0, 0);
+    font-size: 18px;
+    border: 1px solid white;
+}

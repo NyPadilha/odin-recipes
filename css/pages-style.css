@@ -1,0 +1,10 @@
+body {
+    background-color: rgb(152, 82, 41);
+}
+
+img {
+    height: 450px;
+    width: 350px;
+    object-fit: cover;
+    border: 2px solid white
+}

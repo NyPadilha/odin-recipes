@@ -1,5 +1,5 @@
 body {
-    text-align: center;
+    text-align: left;
     background-color: rgb(27, 182, 185);
     color: white;
     font-family: "Times New Roman", serif;
@@ -9,24 +9,39 @@ img {
     width: 350px;
     object-fit: cover;
     border: 2px solid white;
+    float: left;
+    margin-left: 300px;
+    margin-right: 70px;
 }
+
 h1,
 button,
 h2 {
     font-weight: 800;
 }
 
+h1,
+div {
+    text-align: center;
+    margin: 15px;
+}
+
 p,
-li {
+ol,
+ul {
     font-size: 16px;
+    margin-bottom: 30px;
 }
 
 h1 {
     font-size: 60px;
+    margin: 50px;
+    margin-top: 100px;
 }
 
 h2 {
     font-size: 30px;
+    margin: 20px;
 }
 
 button {
@@ -40,36 +55,4 @@ button {
 #button {
     background-color: rgb(27, 182, 185);
     font-size: 16px;
-}
-
-ul,
-ol,
-#p-egg,
-#p-almond {
-    text-align: left;
-}
-
-#potato-margin {
-    margin-left: 540px;
-    margin-right: 540px;
-}
-
-#egg-margin {
-    margin-left: 710px;
-    margin-right: 710px;
-}
-
-#p-egg {
-    margin-left: 730px;
-    margin-right: 730px;
-}
-
-#almond-margin {
-    margin-left: 780px;
-    margin-right: 780px;
-}
-
-#p-almond {
-    margin-left: 800px;
-    margin-right: 800px;
 }
